@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  background-color: rgb(227, 236, 242);;
+  font-family: "Rubik Microbe", system-ui;
+  font-style: italic;
+  font-size: 15px;
+  color: rgb(34, 139, 230);
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 60px;
+  margin-left: 500px;
+}
+
+main > div {
+  margin: 70px 30%;
+  box-shadow: 0 1px 2px rgb(0 0 0 /0.2);
+  padding-bottom: ;
+}
+
+main > div > h2 {
+  font-size: 35px;
+  margin: 0 0 40px 0;
+  text-align: center;
+  background-color: rgb(0%, 15%, 58%); 
+  color: white;
+}
+
+select {
+  display: block;
+  width: 290px;
+  height: 35px;
+  font-size: 18px;
+  margin: 15px 25%;
+  border-color:#f9c01e; 
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-left: 195px;
+}
+
+#inputvalue {
+  display: block;
+  height: 35px;
+  font-size: 18px;
+  margin: 15px 25%;
+  border-color: #f9c01e;
+  border-width: 1px;
+
+}
+
+#convert {
+  display: block;
+  text-align: center;
+  margin: 15px 25%;
+  cursor: pointer;
+  height: 35px;
+  width: 120px;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(0%, 15%, 58%);
+  transition-duration: 0.5s;
+}
+
+#convert:hover {
+  background-color: #f9c01e;
+  color: black;
+}
+
+textarea {
+  display: block;
+  border-color: #f9c01e;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 45px;
+  width: 180px;
+  margin: 30px 25%;
+
+}
+
+@media (max-width: 768px) {
+      .logo {
+        margin-left: 20px;
+      }
+
+      main > div {
+        display: block;
+        width: 100%;
+        box-shadow: 0 1px 2px rgb(0 0 0 /0.2);
+        margin: 50px auto 0 auto;
+      }
+
+
+      main > div > h2 {
+        font-size: 27px;
+      }
+}
+
+
